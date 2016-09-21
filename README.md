@@ -10,7 +10,7 @@
 - Clone the repo
 	
   ```
-  git clone 
+  git clone https://github.com/brunifrancesco/nltk_base.git
   ```
 
 - Move to cloned folder
