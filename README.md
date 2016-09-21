@@ -26,6 +26,12 @@
   	pip install -r requirements.txt
   ```
 
+- Download nltk data (run a python shell):
+  ```
+  import nltk
+  nltk.download()
+  ```
+
 ## Run the notebook
 - Activate the virtual env (just cd into the virtualenv dir)
 
