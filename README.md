@@ -7,6 +7,13 @@
   ```
   virtuanv --distribute -p /python/3.5/path nltk_base
   ```
+  
+  or in OSX:
+  
+  ```
+  pyvenv-3.5 nltk_ex
+  ```
+
 - Clone the repo
 	
   ```
@@ -14,12 +21,17 @@
   ```
 
 - Move to cloned folder
+  
+  ```
+  cd nltk_base
+  ```
 
 - Activate the virtualenv
   
   ```
-  source bin/activate
+  source ../bin/activate
   ```
+
 - Install requirements
   
   ```
@@ -27,6 +39,7 @@
   ```
 
 - Download nltk data (run a python shell):
+  
   ```
   import nltk
   nltk.download()
